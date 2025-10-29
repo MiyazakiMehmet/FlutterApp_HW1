@@ -1,0 +1,16 @@
+name: bim493_hw1
+description: "BIM493 HW1 - Mobile Programming I"
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/classrooms/
+    - assets/instructors/ 
